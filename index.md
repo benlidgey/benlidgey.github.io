@@ -1,2 +1,0 @@
-# lidgey.co.uk
-
