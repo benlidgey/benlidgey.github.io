@@ -1,0 +1,72 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>A tale of a DevOps pre-mortem</title><style>
+      * {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 50px;
+        margin-bottom: 17px;
+        color: #333;
+      }
+      h2 {
+        font-size: 24px;
+        line-height: 1.6;
+        margin: 30px 0 0 0;
+        margin-bottom: 18px;
+        margin-top: 33px;
+        color: #333;
+      }
+      h3 {
+        font-size: 30px;
+        margin: 10px 0 20px 0;
+        color: #333;
+      }
+      header {
+        width: 640px;
+        margin: auto;
+      }
+      section {
+        width: 640px;
+        margin: auto;
+      }
+      section p {
+        margin-bottom: 27px;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333;
+      }
+      section img {
+        max-width: 640px;
+      }
+      footer {
+        padding: 0 20px;
+        margin: 50px 0;
+        text-align: center;
+        font-size: 12px;
+      }
+      .aspectRatioPlaceholder {
+        max-width: auto !important;
+        max-height: auto !important;
+      }
+      .aspectRatioPlaceholder-fill {
+        padding-bottom: 0 !important;
+      }
+      header,
+      section[data-field=subtitle],
+      section[data-field=description] {
+        display: none;
+      }
+      </style></head><body><article class="h-entry">
+<header>
+<h1 class="p-name">A tale of a DevOps pre-mortem</h1>
+</header>
+<section data-field="subtitle" class="p-summary">
+As we approach the first iteration of a stable build infrastructure, and are looking to migrate from the old unstable Jenkins instance to…
+</section>
+<section data-field="body" class="e-content">
+<section name="37e2" class="section section--body section--first section--last"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><h3 name="6043" id="6043" class="graf graf--h3 graf--leading graf--title">A tale of a DevOps pre-mortem</h3><p name="cf56" id="cf56" class="graf graf--p graf-after--h3">As we approach the first iteration of a stable build infrastructure, and are looking to migrate from the old unstable Jenkins instance to a cloud-based Concourse one, we needed a team to work with to migrate their builds. This has a number of benefits including:</p><p name="a5b4" id="a5b4" class="graf graf--p graf-after--p">Moving builds of new features and services from Jenkins to Concourse, a first step on migrating everything of Jenkins. It also means the new services start doing the right thing.</p><p name="c246" id="c246" class="graf graf--p graf-after--p">Getting more people working on the implementation of the Concourse builds. It also helps to get more people interested and engaged in the new build infrastructure and the thinking of how to develop services to allow CI and CD.</p><p name="77e9" id="77e9" class="graf graf--p graf-after--p">Flushing out any unknown issues and problems in the build infrastructure that weren’t found when migrating simpler library builds first.</p><h4 name="54ae" id="54ae" class="graf graf--h4 graf-after--p">But there are risks</h4><p name="0fac" id="0fac" class="graf graf--p graf-after--h4">There are clear risks including an impact on the delivery of the new services if the move to the new build infrastructure hits significant problems, is not as efficient, or does not meet the same quality standards as the old build infrastructure.</p><h4 name="1475" id="1475" class="graf graf--h4 graf-after--p">Time for a pre-mortem</h4><p name="dcde" id="dcde" class="graf graf--p graf-after--h4">Before we started working with the other team in earnest, we ran a <em class="markup--em markup--p-em">pre-mortem</em> workshop.</p><p name="f58a" id="f58a" class="graf graf--p graf-after--p">A pre-mortem is a way of looking at a project and thinking of all the things that can go wrong and turn it into a complete failure. Once these problems and risks are identified the team can then work out ways to avoid those problems, or to reduce any risks, or even to assess and accept the risks. This <a href="https://www.atlassian.com/team-playbook/plays/pre-mortem" data-href="https://www.atlassian.com/team-playbook/plays/pre-mortem" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">pre-mortem playbook</a> at Atlassian has a good description and template for running one.</p><figure name="db21" id="db21" class="graf graf--figure graf--startsWithDoubleQuote graf--layoutOutsetLeft graf-after--p"><img class="graf-image" data-image-id="0*g8PTnDZaFAerXNU8" data-width="3448" data-height="5168" data-unsplash-photo-id="NBaMypSYZ-c" data-is-featured="true" src="https://cdn-images-1.medium.com/max/600/0*g8PTnDZaFAerXNU8"><figcaption class="imageCaption">“crashing plane during daytime” by <a href="https://unsplash.com/@robpotter?utm_source=medium&amp;utm_medium=referral" data-href="https://unsplash.com/@robpotter?utm_source=medium&amp;utm_medium=referral" class="markup--anchor markup--figure-anchor" rel="photo-creator noopener" target="_blank">Rob Potter</a> on <a href="https://unsplash.com?utm_source=medium&amp;utm_medium=referral" data-href="https://unsplash.com?utm_source=medium&amp;utm_medium=referral" class="markup--anchor markup--figure-anchor" rel="photo-source noopener" target="_blank">Unsplash</a></figcaption></figure><h3 name="6dd9" id="6dd9" class="graf graf--h3 graf-after--figure">The pre-mortem itself</h3><h4 name="5cfd" id="5cfd" class="graf graf--h4 graf-after--h3">Setting the stage</h4><p name="c316" id="c316" class="graf graf--p graf-after--h4">I set the stage for the workshop by refreshing the work the other team are working on with the DevOps team — we will be working with a team implementing a shared payment platform, that has dependencies to other projects that will need the payment platform to be delivered.</p><p name="cad1" id="cad1" class="graf graf--p graf-after--p">We want to initially deliver builds on Concourse, automated deployment to environments (not building the environments with infrastructure as code principles as that is too large a piece of work currently), triggering and running of automated tests against the deployed services. The build, deploy and test steps would not be triggered automatically at first; that can come later once we have proven each stage is working.</p><p name="6ddd" id="6ddd" class="graf graf--p graf-after--p">The team were asked to come prepared to the meeting having thought about:</p><ul class="postList"><li name="e99e" id="e99e" class="graf graf--li graf-after--p">Things that can slow us down</li><li name="686d" id="686d" class="graf graf--li graf-after--li">Dependencies</li><li name="bf87" id="bf87" class="graf graf--li graf-after--li">Risks to the project</li></ul><p name="a32b" id="a32b" class="graf graf--p graf-after--li">As the team are a small team, there wasn’t enough people to sensibly split into 2 groups as in the Atlassian playbook, so we worked through it as a single group.</p><h4 name="502f" id="502f" class="graf graf--h4 graf-after--p">Slowdowns</h4><p name="ef02" id="ef02" class="graf graf--p graf-after--h4">The slowdowns we identified ranged from technical ones on developer environments, to a lack of knowledge and skills in both the DevOps team and the team we will be working with. We then identified actions to prioritise the developer environments to define (MacOS first, then Windows), and to run some workshop sessions to bring the other team up to speed.</p><p name="579a" id="579a" class="graf graf--p graf-after--p">Another slowdown identified is “other work and requests for help” that come to the team on an unpredictable basis. While we cannot predict this, we will review the requests, and make sure we prioritise the request (and not be afraid to say no), and measure the impact of anything extra we take on. This will be crucial as it will need to be reported in case it impacts on the payment team.</p><h4 name="ddd6" id="ddd6" class="graf graf--h4 graf-after--p">Dependencies</h4><p name="f90b" id="f90b" class="graf graf--p graf-after--h4">This identified a lot of technical dependencies on libraries that needed upgrading, strategic technical decisions (like which JDK and version to use) and development process dependencies like branching strategies to use (the current GitFlow model makes the build pipeline config a lot more complex, so do we switch the new service to trunk-based? That would mean extra training for the team, so something else to add to the slowdown list).</p><p name="d586" id="d586" class="graf graf--p graf-after--p">The benefits from this was to highlight those decisions that need to be made, but have been put off, like the JDK version.</p><h4 name="e5ff" id="e5ff" class="graf graf--h4 graf-after--p">Risks</h4><p name="3eb5" id="3eb5" class="graf graf--p graf-after--h4">The risks included the obvious potential impact on the payment project, but also risks that the wrong artifacts may be released if it is not clear when the switch over from Jenkins to Concourse is made.</p><h4 name="8f49" id="8f49" class="graf graf--h4 graf-after--p">Actions</h4><p name="ffb6" id="ffb6" class="graf graf--p graf-after--h4">Each area identified some actions that we need to take, ranging from some more fact finding (such as are any developers on the payment team using Windows?), decision making, some of which is wider than the DevOps and payment teams, and some quick tasks (such as manually calculating the current build times on Jenkins so we can compare with the Concourse build times).</p><h3 name="43b7" id="43b7" class="graf graf--h3 graf-after--p">Reflections</h3><p name="5f44" id="5f44" class="graf graf--p graf-after--h3">Looking back at the session it went well. Lots of problems and risks were raised, and covered technical, process and people/organisational areas. It was good to focus on a particular set of outcomes we want to achieve.</p><p name="6c13" id="6c13" class="graf graf--p graf-after--p">We focussed on the potential failures and not the successes. It would have been good to look at what we need to do to succeed.</p><p name="7584" id="7584" class="graf graf--p graf-after--p">We did vote quickly on the actions to identify the immediate ones, but did not assign them to people in the meeting, as we ran out of time. This is being done as part of the next backlog refinement and sprint planning. In parallel I am running sessions with the payment team so they are aware of what we are looking to do, what they can expect from us, and what we will need them to do.</p><p name="211d" id="211d" class="graf graf--p graf-after--p">As the work we are doing is still new and uncertain, I will look to use pre-mortems again.</p><figure name="0ee1" id="0ee1" class="graf graf--figure graf--startsWithDoubleQuote graf-after--p graf--trailing"><img class="graf-image" data-image-id="0*66gKEy30_ilyp67d" data-width="3024" data-height="4032" data-unsplash-photo-id="82ZEOTntP8g" src="https://cdn-images-1.medium.com/max/800/0*66gKEy30_ilyp67d"><figcaption class="imageCaption">“yellow Awesome-printed signage” by <a href="https://unsplash.com/@jontyson?utm_source=medium&amp;utm_medium=referral" data-href="https://unsplash.com/@jontyson?utm_source=medium&amp;utm_medium=referral" class="markup--anchor markup--figure-anchor" rel="photo-creator noopener" target="_blank">Jon Tyson</a> on <a href="https://unsplash.com?utm_source=medium&amp;utm_medium=referral" data-href="https://unsplash.com?utm_source=medium&amp;utm_medium=referral" class="markup--anchor markup--figure-anchor" rel="photo-source noopener" target="_blank">Unsplash</a></figcaption></figure></div></div></section>
+</section>
+<footer><p>By <a href="https://medium.com/@benlidgey" class="p-author h-card">Ben Lidgey</a> on <a href="https://medium.com/p/feb4e0002ede"><time class="dt-published" datetime="2018-11-08T16:55:23.720Z">November 8, 2018</time></a>.</p><p><a href="https://medium.com/@benlidgey/a-tale-of-a-devops-pre-mortem-feb4e0002ede" class="p-canonical">Canonical link</a></p><p>Exported from <a href="https://medium.com">Medium</a> on November 8, 2020.</p></footer></article></body></html>

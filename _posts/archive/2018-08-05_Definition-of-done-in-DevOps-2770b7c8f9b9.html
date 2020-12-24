@@ -1,0 +1,72 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Definition of done in DevOps</title><style>
+      * {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 50px;
+        margin-bottom: 17px;
+        color: #333;
+      }
+      h2 {
+        font-size: 24px;
+        line-height: 1.6;
+        margin: 30px 0 0 0;
+        margin-bottom: 18px;
+        margin-top: 33px;
+        color: #333;
+      }
+      h3 {
+        font-size: 30px;
+        margin: 10px 0 20px 0;
+        color: #333;
+      }
+      header {
+        width: 640px;
+        margin: auto;
+      }
+      section {
+        width: 640px;
+        margin: auto;
+      }
+      section p {
+        margin-bottom: 27px;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333;
+      }
+      section img {
+        max-width: 640px;
+      }
+      footer {
+        padding: 0 20px;
+        margin: 50px 0;
+        text-align: center;
+        font-size: 12px;
+      }
+      .aspectRatioPlaceholder {
+        max-width: auto !important;
+        max-height: auto !important;
+      }
+      .aspectRatioPlaceholder-fill {
+        padding-bottom: 0 !important;
+      }
+      header,
+      section[data-field=subtitle],
+      section[data-field=description] {
+        display: none;
+      }
+      </style></head><body><article class="h-entry">
+<header>
+<h1 class="p-name">Definition of done in DevOps</h1>
+</header>
+<section data-field="subtitle" class="p-summary">
+First off, this may sound all wrong as DevOps is more about culture and flow than a “DevOps team” defining a Definition of Done, but the…
+</section>
+<section data-field="body" class="e-content">
+<section name="a8b4" class="section section--body section--first section--last"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><h3 name="2bf8" id="2bf8" class="graf graf--h3 graf--leading graf--title">Definition of done in DevOps</h3><p name="abe5" id="abe5" class="graf graf--p graf-after--h3">First off, this may sound all wrong as DevOps is more about culture and flow than a “DevOps team” defining a Definition of Done, but the world is a funny place and this is something I am looking at right now within the organisational constraints that are in place.</p><p name="fa08" id="fa08" class="graf graf--p graf-after--p">The organisation I am part of has recognised the need for improvements and investment in the end to end delivery of changes to digital systems. This comes after many years of project-focussed delivery, leading to a less investment in the ongoing maintenance of code and the supporting engineering infrastructure. This has inevitably led to a slow down in the speed and quality of the changes being made. We now have a team dedicated to updating and improving the engineering infrastructure (server builds, continual integration and continual delivery servers, metric reporting and more) to help the development teams deliver higher-quality changes quickly to meet the user needs.</p><p name="6c5d" id="6c5d" class="graf graf--p graf-after--p">You may pick up from all of that that we have a separate team dealing with those things, rather than the ultimate DevOps culture that everyone is responsible for end to end delivery and you would be right. It is the first step on this journey, and I see that changing over time. For simplicity sake I will call that team the “DevOps team”.</p><figure name="8042" id="8042" class="graf graf--figure graf--layoutOutsetLeft graf-after--p"><img class="graf-image" data-image-id="0*VA0DRBOE0V5Zs_7Y" data-width="5171" data-height="3447" src="https://cdn-images-1.medium.com/max/600/0*VA0DRBOE0V5Zs_7Y"><figcaption class="imageCaption">Photo by <a href="https://unsplash.com/@quinoal?utm_source=medium&amp;utm_medium=referral" data-href="https://unsplash.com/@quinoal?utm_source=medium&amp;utm_medium=referral" class="markup--anchor markup--figure-anchor" rel="photo-creator noopener" target="_blank">Quino Al</a> on <a href="https://unsplash.com?utm_source=medium&amp;utm_medium=referral" data-href="https://unsplash.com?utm_source=medium&amp;utm_medium=referral" class="markup--anchor markup--figure-anchor" rel="photo-source noopener" target="_blank">Unsplash</a></figcaption></figure><p name="0a11" id="0a11" class="graf graf--p graf-after--figure">As any good team does we have had a retrospective to look at how we have been doing things recently and identified a number of areas to improve on. One of those areas is that the stories are technically focussed, and so are not that well defined. Equally, the work has a lot of investigation and learning involved as new technologies are identified and implemented, with unexpected gotchas popping out.</p><p name="c192" id="c192" class="graf graf--p graf-after--p">One area we looked at for this is the concept of a Definition of Done. The traditional thinking around Definition of Done for user stories in Scrum is based around a story being written to meet the “<a href="https://www.agilealliance.org/glossary/invest" data-href="https://www.agilealliance.org/glossary/invest" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">INVEST</a>” principles — Independent, Negotiable, Valued, Estimated, Small, Testable.</p><p name="c514" id="c514" class="graf graf--p graf-after--p">Looking at each of these has lead to some discussions.</p><h4 name="14d4" id="14d4" class="graf graf--h4 graf-after--p">Independent</h4><p name="0dbd" id="0dbd" class="graf graf--p graf-after--h4">Stories can be independent. However as the engineering infrastructure work moves from spikes and investigations into engineering solutions the dependencies between them increases. This has made the stories less independent. For example, we have implemented a cloud-based artefact repository and a cloud-based build server. The implementation of these was done independently, but now as we look to integrate the two there dependencies between stories grows.</p><h4 name="bf1e" id="bf1e" class="graf graf--h4 graf-after--p">Negotiable</h4><p name="19e8" id="19e8" class="graf graf--p graf-after--h4">Stories remain negotiable. In this case the customers are internal teams, but there is no difference in terms of negotiating which work is done.</p><h4 name="6439" id="6439" class="graf graf--h4 graf-after--p">Valued</h4><p name="6853" id="6853" class="graf graf--p graf-after--h4">There is an obvious benefit to the implementation of a more streamlined build and deployment pipeline. Defining the value at the story level, especially for technical stories related to implementing CI infrastructure becomes harder to define; using metrics such as build times or lead times can be used to quantify value.</p><h4 name="5b6a" id="5b6a" class="graf graf--h4 graf-after--p">Estimated</h4><p name="9a26" id="9a26" class="graf graf--p graf-after--h4">In fairness the estimating is always improving and confidence in the estimates is improving also. There are a lot of new technologies that are being used, and people learning those technologies. The team are doing well in learning from previous estimates and refining the new ones.</p><h4 name="6d88" id="6d88" class="graf graf--h4 graf-after--p">Small</h4><p name="cfb5" id="cfb5" class="graf graf--p graf-after--h4">In the same way as estimating the team are always looking at how the stories can be broken down into small, defined pieces of work. This has become obvious after the first few sprints showed the level of unknowns in the new work, and the need to break the work down into smaller pieces, often with a initial spike to understand the tool or technology before defining further work.</p><h4 name="a784" id="a784" class="graf graf--h4 graf-after--p">Testable</h4><p name="067c" id="067c" class="graf graf--p graf-after--h4">The stories that have been completed so far are building the new infrastructure. As we started out using <em class="markup--em markup--p-em">infrastructure as code</em> principles we are in a good position to easily create and destroy test instances.</p><h3 name="cf07" id="cf07" class="graf graf--h3 graf-after--p">What next?</h3><p name="43fe" id="43fe" class="graf graf--p graf-after--h3">There are some steps that we need to take in the short term, and some ideas for what to do after that.</p><p name="4c97" id="4c97" class="graf graf--p graf-after--p">More design work. This can be done as part of regular backlog refinement sessions (booking more of those!), or as potential spikes.</p><p name="17be" id="17be" class="graf graf--p graf-after--p graf--trailing">We are able to test changes using the existing infrastructure as it is not in full use as a “live” build environment. The advantage of having a team drawn from Dev and Ops means we can use the experience of the Ops team members on moving to 2 sets of environments — one for developing and testing changes, and another for the “production” build pipeline infrastructure. This is something we will add into the backlog.</p></div></div></section>
+</section>
+<footer><p>By <a href="https://medium.com/@benlidgey" class="p-author h-card">Ben Lidgey</a> on <a href="https://medium.com/p/2770b7c8f9b9"><time class="dt-published" datetime="2018-08-05T14:01:01.506Z">August 5, 2018</time></a>.</p><p><a href="https://medium.com/@benlidgey/definition-of-done-in-devops-2770b7c8f9b9" class="p-canonical">Canonical link</a></p><p>Exported from <a href="https://medium.com">Medium</a> on November 8, 2020.</p></footer></article></body></html>

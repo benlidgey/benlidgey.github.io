@@ -1,0 +1,72 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>S03E06 The 3Rs — Recruitment, Releases and Retros</title><style>
+      * {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 50px;
+        margin-bottom: 17px;
+        color: #333;
+      }
+      h2 {
+        font-size: 24px;
+        line-height: 1.6;
+        margin: 30px 0 0 0;
+        margin-bottom: 18px;
+        margin-top: 33px;
+        color: #333;
+      }
+      h3 {
+        font-size: 30px;
+        margin: 10px 0 20px 0;
+        color: #333;
+      }
+      header {
+        width: 640px;
+        margin: auto;
+      }
+      section {
+        width: 640px;
+        margin: auto;
+      }
+      section p {
+        margin-bottom: 27px;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333;
+      }
+      section img {
+        max-width: 640px;
+      }
+      footer {
+        padding: 0 20px;
+        margin: 50px 0;
+        text-align: center;
+        font-size: 12px;
+      }
+      .aspectRatioPlaceholder {
+        max-width: auto !important;
+        max-height: auto !important;
+      }
+      .aspectRatioPlaceholder-fill {
+        padding-bottom: 0 !important;
+      }
+      header,
+      section[data-field=subtitle],
+      section[data-field=description] {
+        display: none;
+      }
+      </style></head><body><article class="h-entry">
+<header>
+<h1 class="p-name">S03E06 The 3Rs — Recruitment, Releases and Retros</h1>
+</header>
+<section data-field="subtitle" class="p-summary">
+I haven’t written week notes for a little while as things have been manic in a good way mostly. Work continues at a pace, dealing with all…
+</section>
+<section data-field="body" class="e-content">
+<section name="38f9" class="section section--body section--first section--last"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><h3 name="a3ad" id="a3ad" class="graf graf--h3 graf--leading graf--title">S03E06 The 3Rs — Recruitment, Releases and Retros</h3><p name="e739" id="e739" class="graf graf--p graf-after--h3">I haven’t written week notes for a little while as things have been manic in a good way mostly. Work continues at a pace, dealing with all sorts of different challenges: selecting an office, recruiting developers, planning releases and a whole load of work for new features and defects.</p><p name="4566" id="4566" class="graf graf--p graf-after--p">I haven’t been on the turbo trainer as much as I would have liked, but have had some nice Sunday bike rides instead.</p><h4 name="cb9f" id="cb9f" class="graf graf--h4 graf-after--p">Recruitment</h4><p name="385b" id="385b" class="graf graf--p graf-after--h4">We are recruiting for mobile and web developers, especially those with experience in JavaScript frameworks. We use React and ReactNative a lot, and want to talk to people with React experience, or experience in other JS frameworks like AngularJS or NodeJS.</p><p name="3f3d" id="3f3d" class="graf graf--p graf-after--p">Our clients range from global, multi-national companies with large systems in multiple languages and locales, to dynamic start-ups pushing the boundaries of innovation.</p><p name="3e81" id="3e81" class="graf graf--p graf-after--p">We rely on people who want to work in a collaborative environment to deliver bespoke solutions using the latest web, mobile and cloud technologies. With an open culture people are freely able to challenge, mentor, help and learn from each other daily. Teams have ownership of the systems they produce, so everyone is encouraged and supported to produce clean, high quality code</p><p name="1001" id="1001" class="graf graf--p graf-after--p">More information can be found at <a href="https://www.deliveryblueprints.com/who-we-are/#" data-href="https://www.deliveryblueprints.com/who-we-are/#" class="markup--anchor markup--p-anchor" rel="nofollow noopener" target="_blank">https://www.deliveryblueprints.com/who-we-are</a></p><h4 name="ad2e" id="ad2e" class="graf graf--h4 graf-after--p">Releases</h4><p name="c838" id="c838" class="graf graf--p graf-after--h4">The main point of software development is to provide something useful for the user. And to do this you need to release stuff that works. If you can improve the quality that’s great. If you can improve the speed to match what the user wants then that’s also great.</p><p name="b0f2" id="b0f2" class="graf graf--p graf-after--p">Improving both quality and speed can be helped by using CI and CD tools. In order to make the tools work though you need to be certain the tools are building and deploying the right things. We have build systems that run regularly several times a day and deploy a build to the test systems.</p><p name="98f1" id="98f1" class="graf graf--p graf-after--p">Recently we had a scenario where we needed to make a bug fix release to the test system and when this was discussed by the team we found there were some commits for a new feature we didn’t want to release on the same branch. We had a review of the branches in use, and created a plan to generate a build for the test system without the partially completed new feature which involved some git jiggery-pokery. This highlighted the need for an agreed branching strategy to be used by the teams, and therefore can be used by the tools.</p><p name="e308" id="e308" class="graf graf--p graf-after--p">Similarly the releases need to be planned so it is clear to everyone what is targeted for each release. Everyone can then make sure that whatever they are doing can be linked to the release goals, and challenge tasks when it is not obvious how the link to the release goals.</p><p name="ffeb" id="ffeb" class="graf graf--p graf-after--p">All of this comes back to people: people being disciplined with the branches they use, people planning releases and dependencies between them (for example this client version needs that server version) and most importantly the communication between all the people on what the goal of the releases are and what the dependencies are between them.</p><figure name="21fd" id="21fd" class="graf graf--figure graf-after--p"><img class="graf-image" data-image-id="0*-thphHHEHZJcB183" data-width="5184" data-height="3456" data-unsplash-photo-id="IPx7J1n_xUc" src="https://cdn-images-1.medium.com/max/800/0*-thphHHEHZJcB183"><figcaption class="imageCaption">Photo by <a href="https://unsplash.com/@kadh?utm_source=medium&amp;utm_medium=referral" data-href="https://unsplash.com/@kadh?utm_source=medium&amp;utm_medium=referral" class="markup--anchor markup--figure-anchor" rel="photo-creator noopener" target="_blank">Kira auf der Heide</a> on <a href="https://unsplash.com?utm_source=medium&amp;utm_medium=referral" data-href="https://unsplash.com?utm_source=medium&amp;utm_medium=referral" class="markup--anchor markup--figure-anchor" rel="photo-source noopener" target="_blank">Unsplash</a></figcaption></figure><h4 name="b281" id="b281" class="graf graf--h4 graf-after--figure">Retrospectives</h4><p name="8508" id="8508" class="graf graf--p graf-after--h4">I ran some retrospectives this week for distributed teams (although the Cardiff team are in the same room). The easiest way I found was to open a blank Word document and share the screen. People can then contribute their thoughts to the 3 sections for “what went well”, “what didn’t go well” and “things to improve”. It has worked well so far, generated some good comments and actions.</p><p name="29db" id="29db" class="graf graf--p graf-after--p">Something I noticed was that some people were quiet. This might be because they genuinely didn’t have anything to contribute but I suspect it is because the format does not allow people to reflect and put their tohughts forward, perhaps anonymously. Any ideas on how to manage retrospectives for remote teams gratefully received.</p><p name="902f" id="902f" class="graf graf--p graf-after--p">I also tried a different approach with a team that had a sprint with a lot of changing stories, or stories that were not clearly defined. For this one I tried the “<a href="https://luis-goncalves.com/sailboat-exercise-sailboat-retrospective/" data-href="https://luis-goncalves.com/sailboat-exercise-sailboat-retrospective/" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">Sailboat retrospective</a>” with the idea to not only look at what happened in the previous sprint but to look ahead to the next one and discuss the goal, and what the rocks (risks), anchors (things slowing the team down), and the wind (things helping the team) might look like. To do this I had the picture on a powerpoint slide (again on a shared screen) and frantically wrote notes on the picture in the relevant places. I thought it generated some good conversation, and helped to think about the goals, but that view wasn’t shared by everyone.</p><figure name="893b" id="893b" class="graf graf--figure graf-after--p"><img class="graf-image" data-image-id="1*OHLLNfywj007o8U6KPQfhQ.png" data-width="800" data-height="600" data-is-featured="true" src="https://cdn-images-1.medium.com/max/800/1*OHLLNfywj007o8U6KPQfhQ.png"><figcaption class="imageCaption"><a href="https://luis-goncalves.com/sailboat-exercise-sailboat-retrospective/" data-href="https://luis-goncalves.com/sailboat-exercise-sailboat-retrospective/" class="markup--anchor markup--figure-anchor" rel="noopener" target="_blank">https://luis-goncalves.com/sailboat-exercise-sailboat-retrospective/</a></figcaption></figure><h3 name="0f91" id="0f91" class="graf graf--h3 graf-after--figure">Next week</h3><p name="75f5" id="75f5" class="graf graf--p graf-after--h3">Next week has some challenges when my son goes into hospital for knee surgery and I do a talk at the National Software Academy. Some more DIY tasks also await…</p><p name="89f2" id="89f2" class="graf graf--p graf-after--p">Work changes continue with delivery of incremental releases, and iterating longer term roadmaps.</p><p name="04ac" id="04ac" class="graf graf--p graf-after--p graf--trailing">I want to complete the next stage of my career in Rouvy by completing the “<a href="https://my.rouvy.com/virtual-routes/detail/19357" data-href="https://my.rouvy.com/virtual-routes/detail/19357" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">Trail Ridge Road</a>” ride. I am not sure if this is possible as it will take approx. 2 hours, and time might not be on my side.</p></div></div></section>
+</section>
+<footer><p>By <a href="https://medium.com/@benlidgey" class="p-author h-card">Ben Lidgey</a> on <a href="https://medium.com/p/c3ae35a87db3"><time class="dt-published" datetime="2019-03-25T13:39:10.078Z">March 25, 2019</time></a>.</p><p><a href="https://medium.com/@benlidgey/s03e06-the-3rs-recruitment-releases-and-retros-c3ae35a87db3" class="p-canonical">Canonical link</a></p><p>Exported from <a href="https://medium.com">Medium</a> on November 8, 2020.</p></footer></article></body></html>
