@@ -40,22 +40,34 @@ Hmm, this is an interesting one, as there is a whole debate behind this about ho
 
 Plenty has been written about Daily Scrum anti-patterns, and the “standard 3 questions” update has done more damage to the purpose of the Daily Scrum, and arguably to Scrum itself, than the good. It is often seen as a way for “pointy haired management types” to get progress updates from developers than for the team to organise the work towards achieving value for the customer, and towards delivering the sprint goal. This has been one point used against having a daily scrum, as it is seen as a boring ritual rather than delivering any value. Firing off a quick text-update in a few seconds can achieve the same outcome without having to stand through 14 minutes of other people mumbling what they did yesterday.
 
+There are plenty of articles and blogs on daily scrum anti-patterns, with recommendations on what to do about them, such as this one: https://age-of-product.com/stand-up-anti-patterns/
 
+Ultimately, I think there is a more fundamental issue where "Agile" or "Scrum" is introduced to an organisation without enough explanation, training or coaching for *everyone* on why it is being used, what the principles are, what the allowed behaviours are (such as the Development team leading the Daily Scrum and feeling psychologically safe to remind people outside of the team who may be there that they are only watching).
 
-add refs
+# What about using text-based tools for providing updates instead?
 
-What about using text-based tools for providing updates instead?
+The suggestion was made to use a text-based messaging tool to provide updates to the team instead at roughly the same time of day, but not exactly the same time of day to allow for people to stop their work at a suitable breakpoint. We debated this as a team.
 
-Pros
+The advantages are:
 
-Team members can provide updates when they are at a suitable point in their day. This can remove possible interruptions to their thought processes.
+* Team members can provide updates when they are at a suitable point in their day. This can remove possible interruptions to their thought processes.
+* There is a record of updates for team members who may be unable to attend.
+* Remote team members in different timezones can contribute when appropriate for them.
 
-There is a record of updates for team members who may be unable to attend, or for remote team members in different timezones.
+The disadvantages we identified are:
 
-Cons
+* Updates can be “fire and forget” brief updates, with one or two sentences on what someone is doing. This can lead to the individual updates anti-pattern. 
+* It is more difficult to generate conversations, ideas or spin-off conversations with others.
 
-Updates can be “fire and forget” and more difficult to generate conversations, ideas or spin-off conversations with others.
+My observations are:
 
-Engagement with team members can be difficult as team members can skim read or ignore updates from others.
+* There is not an opportunity for the team to reflect on the current work and if it is aligned to the sprint goal.
+* Engagement with team members can be difficult as team members can skim read or ignore updates from others.
+* There is less focus on the flow of work in the sprint, as we cannot esaily view the work in progress, ask what is being blocked and what needs to be done to complete tasks (pull from right to left). This has to be done on an individual basis. It is evidenced by the sprint burndown chart flatlining.
+* For a team that has been forced into remote working during the pandemic it has removed a regular opportunity for the team to come together (virtually). We will have to see what affect that has on the team and individual wellbeing.
 
-Remote working
+# How is it going?
+
+We have done a couple of sprints so far with text-based updates, and the team is generally happy with the approach. As someone in the Scrum Master role I feel the collective team view of the sprint goal, and the ability for the team to change the focus of the conversation to what is important that day is lost. The status updates feel very individual, and reverting more towards the "I did this, am doing that" format the team were trying to avoid in the first place.
+
+Ultimately though the team are keen to keep the text-based updates, and as long as things are working, the team are self-organising and I am also able to get the information I need to fulfill my responsibilities then it is not for me to change it.
