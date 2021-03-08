@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Should we have Daily Scrums if they interrupt people's workflow?"
+date:   2021-03-08 15:00:00 +0000
+categories: agile
+---
+
 # Should we have Daily Scrums if they interrupt people's workflow?
 
 Recently we've been having a debate about the value of a daily scrum and whether it interrupts people's workflow and train of thought, or if that interruption is worth it. In this discussion there were 2 main sides: those in favour of a daily scrum at the same time each day on a Teams call, and those in favour of sharing their update by a message in a shared Teams channel.
