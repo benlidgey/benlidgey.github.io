@@ -11,13 +11,13 @@ Recently we've been having a debate about the value of a daily scrum and whether
 
 ## Let's look at what the guidance says
 
-The Agile Manifesto (https://agilemanifesto.org/) talks about 
+The [Agile Manifesto](https://agilemanifesto.org/) talks about 
 
 > Individuals and interactions over processes and tools
 
 which would suggest we should value the individual(s) preferred way of working over the defined process and tools. 1-0 to the text-update mob.
 
-The Agile Manifesto principles (https://agilemanifesto.org/principles.html) say 
+The [Agile Manifesto principles](https://agilemanifesto.org/principles.html) say 
 
 > The most efficient and effective method of conveying information to and within a development team is face-to-face conversation.
 
@@ -29,7 +29,7 @@ It also says
 
 which hints at trusting the team to self-organise for what they need and how they feel is best to work. 1-2 to the text-update mob.
 
-Now let's look at the Scrum Guide (https://www.scrumguides.org/scrum-guide.html#daily-scrum)
+Now let's look at the [Scrum Guide](https://www.scrumguides.org/scrum-guide.html#daily-scrum)
 
 > The Daily Scrum is a 15-minute event for the Developers of the Scrum Team. To reduce complexity, it is held at the same time and place every working day of the Sprint. If the Product Owner or Scrum Master are actively working on items in the Sprint Backlog, they participate as Developers.
 
@@ -42,6 +42,8 @@ We are back to self-organising, so 2-3 to text-updates. It goes on to say:
 > Daily Scrums improve communications, identify impediments, promote quick decision-making, and consequently eliminate the need for other meetings.
 
 Hmm, this is an interesting one, as there is a whole debate behind this about how effective are text-updates for all of that stuff. Can you really identify that someone has an impediment if they say "I am working on resolving the database performance issue"? Or is that more because they need to express their update differently, or someone needs to follow-up on that text update to ask for more information? Is it the fault of text-updates if people just read an update, shrug their shoulders and move on, rather than taking the time to ask if that person needs help, whereas if everyone was face to face would someone be more likely to actually offer their help or ask follow-on questions?
+
+This feels like one of those "refer to the TV official" moments, so could be 3-3, or stay at 2-3.
 
 ## Daily Scrum anti-patterns
 
