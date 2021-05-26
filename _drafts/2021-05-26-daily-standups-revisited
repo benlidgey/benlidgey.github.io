@@ -7,13 +7,13 @@ categories: agile
 
 # Daily scrums revisited
 
-In []() I talked about a debate and trial we have been having where we have swapped daily scrum calls (as we are working remotely) for status updates in the team chat channel as most of the team viewed the daily scrum as an interruption rather than something delivering value.
+In [Should we have Daily Scrums if they interrupt people's workflow?](http://www.lidgey.co.uk/agile/2021/03/08/daily-scrums-text-updates.html) I talked about a debate and trial we have been having where we have swapped daily scrum calls (as we are working remotely) for status updates in the team chat channel as most of the team viewed the daily scrum as an interruption rather than something delivering value.
 
 # My observations
 
 I have not been collecting stats (perhaps I should have, but that felt too draconian and not trusting). So anecdotally I have noticed a significant drop in status updates from the team, and therefore an increase in nudges and less subtle "what's going on?" messages in the chat channel. Updates are not made in the ticketing system as an alternative either.
 
-Scrum works on the basis of an empirical approach of transparency, inspection and adaptation. Without a regular update on progress towards the sprint goal and any impediments in the way, transparency is reduced, meaning inspection and adaptation is also limited.
+Scrum works on the basis of an [empirical approach of transparency, inspection and adaptation](https://www.scrum.org/resources/blog/three-pillars-empiricism-scrum). Without a regular update on progress towards the sprint goal and any impediments in the way, transparency is reduced, meaning inspection and adaptation is also limited.
 
 The project has had challenges on a number of fronts including changes in product owners, customers, and a historical focus on technical goals that often competes with the customer needs. I feel the team needs reminding of the business benefits of the work, and a daily scrum would provide a regular opportunity to ask the question "how are we progressing towards the sprint goal and the wider business goals?". The technical focus of the work and an old backlog in need of TLC means the stories are often more like tasks.
 
