@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Should we have Daily Scrums if they interrupt people's workflow?"
-date:   2021-03-08 15:00:00 +0000
+title:  "Daily Scrums revisited"
+date:   2021-05-28 15:00:00 +0000
 categories: agile
 ---
 
