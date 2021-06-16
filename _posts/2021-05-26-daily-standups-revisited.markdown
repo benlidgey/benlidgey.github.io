@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Daily Scrums revisited"
-date:   2021-05-28 15:00:00 +0000
+date:   2021-05-26 15:00:00 +0000
 categories: agile
 ---
 
