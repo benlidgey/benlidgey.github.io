@@ -37,5 +37,5 @@ The hot sunshine went away on Wednesday afternoon to be replaced by more humidit
 
 Looking at the burndown I had now covered 89km after 3 days so still tracking well on the burndown, so missing a ride on Thursday morning should be OK. Let's continue at a sustainable pace and not burnup (see what I did there!). More backlog refinement to remove the Thursday morning ride and juggle the later rides to match the Zwift worlds, taking into the account the distances and climbs (no more KOMs!).
 
-![Thursday burndown](/images/2021-06-17-thurs-burndown.png)
+![Thursday burndown](images/2021-06-17-thurs-burndown.png)
 
