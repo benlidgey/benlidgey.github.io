@@ -33,6 +33,9 @@ Typically the weather was very hot as we had a little June heatwave, so that too
 
 The hot sunshine went away on Wednesday afternoon to be replaced by more humidity. Wednesday's ride was probably not the best idea to do the "Figure 8 Reverse" around Watopia that included two KOM sections, as I reflected in my retrospective on Wednesday evening. I needed another rest. More inspection and adaption.
 
+![Thursday backlog](/images/2021-06-17-thurs-backlog.png)
+
 Looking at the burndown I had now covered 89km after 3 days so still tracking well on the burndown, so missing a ride on Thursday morning should be OK. Let's continue at a sustainable pace and not burnup (see what I did there!). More backlog refinement to remove the Thursday morning ride and juggle the later rides to match the Zwift worlds, taking into the account the distances and climbs (no more KOMs!).
 
+![Thursday burndown](/images/2021-06-17-thurs-burndown.png)
 
