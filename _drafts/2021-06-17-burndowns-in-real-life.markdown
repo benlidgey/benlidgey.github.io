@@ -25,6 +25,9 @@ My team size is 1 (me). So I can only cycle one route at a time, therefore my in
 
 I set up a couple of Google Doc spreadsheets -- one for the backlog of rides and one to track the actual ride length and plot the burndown so I could see if I was on track to cover the distance for the week.
 
+
+![Monday backlog](images/2021-06-17-mon-backlog.png)
+
 # Ride on!
 
 I started out with all the determination and energy on Monday 14th with the short ride first thing in the morning, and a longer ride in the evening. My energy lasted into Tuesday morning with another gentle ride to keep the kms ticking over. So far so good -- just over 1 day in and 41km done.
