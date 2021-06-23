@@ -76,4 +76,4 @@ Things that went well were:
 
 If I was to do a similar or longer challenge again I would look to keep the inspection and adaption, and focus on a more sustainable and regular pace. I was able to manage the different length rides for a week because it was a short challenge in terms of time and distance and I am fit enough to catch up when I needed to. A longer challenge would need a consistent delivery. Definitely something I would look to do though.
 
-![Green jersey](images/2021-06-17-green.jpg)
+![Green jersey](2021-06-17-green.jpg)
