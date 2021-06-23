@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Burndowns in real life"
-date:   2021-06-17 15:00:00 +0000
+date:   2021-06-23 15:24:00 +0000
 categories: agile
 ---
 
@@ -65,7 +65,7 @@ Looking at the week, the things that could have gone better were:
 
 You can see how the length of rides went up and down, and then dropped off after Thursday from the final burndown chart, perhaps indicating I needed more endurance and preparation too. 
 
-![Final burndown](images/2021-06-17-final-burndown.png)
+![Final burndown](/images/2021-06-17-final-burndown.png)
 
 Things that went well were:
 
