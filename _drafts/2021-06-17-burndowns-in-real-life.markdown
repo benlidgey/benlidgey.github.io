@@ -61,12 +61,18 @@ Looking at the week, the things that could have gone better were:
 2. Talking earlier to other people doing the challenge to get an idea of the interest in online rides, and so whether to arrange meetups or plan rides for me.
 3. Researching routes to understand the challenges, such as KOM, climbs and so on before setting out. This would be influenced by my approach.
 4. Keeping a steady pace of rides, and making sure there was "booked" time in my week for those rides to happen.
+5. Making sure my endurance fitness and preparations (sleep, getting up in time for breakfast for example) are sufficient.
+
+You can see how the length of rides went up and down, and then dropped off after Thursday from the final burndown chart, perhaps indicating I needed more endurance and preparation too. 
+
+![Final burndown](images/2021-06-17-final-burndown.png)
 
 Things that went well were:
 
 1. Most importantly I attempted the challenge, raised some donations and hopefully raised awareness of men's health.
-2. I completed the challenge and enjoyed doing it
-3. I tracked, inspected and adjusted the rides during the week taking into account how I was feeling, other events that influenced if I could make a ride.
+2. I completed the challenge and enjoyed doing it.
+3. I collected some Zwift route badges and green jerseys along the way. I also discovered some local routes, although they were not great and I won't be riding them again, but at least I know that now.
+4. I tracked, inspected and adjusted the rides during the week taking into account how I was feeling, other events that influenced if I could make a ride.
 
 If I was to do a similar or longer challenge again I would look to keep the inspection and adaption, and focus on a more sustainable and regular pace. I was able to manage the different length rides for a week because it was a short challenge in terms of time and distance and I am fit enough to catch up when I needed to. A longer challenge would need a consistent delivery. Definitely something I would look to do though.
 
