@@ -42,3 +42,31 @@ Looking at the burndown I had now covered 89km after 3 days so still tracking we
 
 ![Thursday burndown](images/2021-06-17-thurs-burndown.png)
 
+After the break on Thursday morning I felt refreshed so decided to go on a bit of a badge hunt and went for the "Out and back again" route. I started a bit later in the evening than I meant to, so took a tactical approach starting on a TT bike on the flat roads in the desert and getting a good pace, then switching to a road bike when getting to the rolling climbs. I hadn't done my planning properly again though, as I found out there was a KOM and then the Volcano KOM on the route. I was determined to finish the route and get the badge, so pushed hard and completed 45km and the course. But I was spent. More adjustment meant Friday rides were dropped completely -- the steady sustainable, regular pace had gone really, replaced with a more lumpy intermittent delivery.
+
+Then Saturday presented the option to get outside for some smaller rides around the area. I was more focussed on exploring some routes and not measuring the km so was a bit miffed to find out I was 3km short of the 150km target when I got home, but also not too worried as I wanted to finish on a high rather than a short ride around the local area. It did raise the question of forecasting again. The finish came on Sunday when I blasted around the Makuri Islands Three Village Loop on a TT bike, completing 11km in a quick time.
+
+The final graphs are:
+
+![Sunday backlog](images/2021-06-17-sun-backlog.png)
+
+![Sunday burndown](images/2021-06-17-sun-burndown.png)
+
+
+# Retrospective
+
+Looking at the week, the things that could have gone better were:
+
+1. Deciding what my approach to the week was -- would I approach it to get the 150km done as quickly and easily as possible on flat routes, long routes, or in a series of shorter rides? Would I want to set additional challenges such as also tracking the amount of climbs, badges, and so on?
+2. Talking earlier to other people doing the challenge to get an idea of the interest in online rides, and so whether to arrange meetups or plan rides for me.
+3. Researching routes to understand the challenges, such as KOM, climbs and so on before setting out. This would be influenced by my approach.
+4. Keeping a steady pace of rides, and making sure there was "booked" time in my week for those rides to happen.
+
+Things that went well were:
+
+1. Most importantly I attempted the challenge, raised some donations and hopefully raised awareness of men's health.
+2. I completed the challenge and enjoyed doing it
+3. I tracked, inspected and adjusted the rides during the week taking into account how I was feeling, other events that influenced if I could make a ride.
+
+If I was to do a similar or longer challenge again I would look to keep the inspection and adaption, and focus on a more sustainable and regular pace. I was able to manage the different length rides for a week because it was a short challenge in terms of time and distance and I am fit enough to catch up when I needed to. A longer challenge would need a consistent delivery. Definitely something I would look to do though.
+
